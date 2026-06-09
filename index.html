@@ -3,50 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projet Site Web | Adam Failoul</title>
+  <title>Adam Failoul | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>Projet : Site Web Portfolio</h1>
-  <p>Étude de cas complète du projet</p>
-  <a href="index.html" class="btn">← Retour au portfolio</a>
+  <h1>Adam Failoul</h1>
+  <p>Web & Multimédia Designer / Développeur</p>
+  <a href="#projects" class="btn">Voir mes projets</a>
 </header>
 
-<section class="project-detail">
-
-  <h2>Description du projet</h2>
+<section id="about">
+  <h2>À propos</h2>
   <p>
-    J’ai conçu et développé un site web responsive moderne afin de présenter un salon de coiffure à Laval.
+    Je suis étudiant passionné par le web, le design et le multimédia.
+    Je crée des interfaces modernes et des expériences interactives.
   </p>
 
-  <h2>Objectifs</h2>
+  <h3>Compétences</h3>
   <ul>
-    <li>Créer un design moderne et professionnel</li>
-    <li>Rendre le site responsive (mobile + PC)</li>
-    <li>Présenter mes projets clairement</li>
+    <li>HTML / CSS / JS</li>
+    <li>UI / UX Design</li>
+    <li>Photoshop / Illustrator</li>
+    <li>Unreal Engine</li>
+    <li>Création de sites Web & boutiques Shopify</li>
+    <li>Facebook Ads & Google Ads</li>
   </ul>
+</section>
 
-  <h2>Technologies utilisées</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>IA</li>
-    <li>Canvas</li>
+<section id="projects">
+  <h2>Mes projets</h2>
 
-  </ul>
+  <div class="grid">
 
-  <h2>Images du projet</h2>
+    <!-- PROJET 1 -->
+    <div class="card">
+      <img src="images/unreal-project.jpg" alt="Projet Unreal Engine">
 
-  <img src="images/logoNadiaStyle.png" alt="Page accueil du site" style="width:100%; margin-bottom:20px;">
-  <img src="images/image1.png" alt="Section projets" style="width:100%; margin-bottom:20px;">
-  <img src="images/image2.png" alt="Section projets" style="width:100%; margin-bottom:20px;">
-  <img src="images/image3.png" alt="Section projets" style="width:100%; margin-bottom:20px;">
-  <img src="images/image4.png" alt="Section projets" style="width:100%; margin-bottom:20px;">
-  <img src="images/image5.png" alt="Section projets" style="width:100%; margin-bottom:20px;">
+      <h3>Interface de jeu Unreal Engine</h3>
+      <p>
+        Création d’une interface utilisateur pour un jeu (HUD + menus).
+      </p>
 
+      <p><strong>Statut :</strong> En cours...</p>
+
+      <a href="https://ton-lien-video.com" target="_blank">
+        Voir la démonstration
+      </a>
+    </div>
+
+    <!-- PROJET 2 -->
+    <div class="card">
+      <img src="images/portfolio-site.jpg" alt="Site web portfolio">
+
+      <h3>Site web portfolio</h3>
+      <p>
+        Conception et développement d’un site web responsive moderne.
+      </p>
+
+     <a href="projet-site-web.html" class="btn-projet">
+  Voir le projet
+</a>
+    </div>
+
+    <!-- PROJET 3 -->
+    <div class="card">
+      <img src="images/video-edit.jpg" alt="Montage vidéo">
+
+      <h3>Montage vidéo promotionnel</h3>
+      <p>
+        Création de vidéos promotionnelles pour réseaux sociaux.
+      </p>
+
+      <a href="https://www.instagram.com/nadia_style_coiffure/" target="_blank">
+        Voir la vidéo
+      </a>
+    </div>
+
+  </div>
 </section>
 
 <section id="contact">
