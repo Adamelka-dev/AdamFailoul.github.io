@@ -67,3 +67,12 @@ ul li {
   padding: 10px;
   border-radius: 8px;
 }
+.project-detail {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.project-detail img {
+  border-radius: 10px;
+}
