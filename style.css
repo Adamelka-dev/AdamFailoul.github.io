@@ -178,4 +178,41 @@ transition:0.3s;
 transform:translateY(-2px);
 background:#eff6ff;
 }
+/* PAGE PROJET DETAILS */
+
+.project-detail{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+.project-detail h2{
+margin-top:40px;
+color:#0f172a;
+}
+
+.project-detail p{
+margin-top:10px;
+line-height:1.6;
+}
+
+/* GALERIE PUBLICITAIRE */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
 
